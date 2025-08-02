@@ -8,7 +8,7 @@ def get_current_time() -> dict:
     Get the current time in the format YYYY-MM-DD HH:MM:SS
     """
     return {
-        "cuttent_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "current_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
     }
 
 
